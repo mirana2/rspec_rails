@@ -1,9 +1,13 @@
 # README
 
+# RSpec
+
 ## Install
-    gem isntall rspec
+    gem install rspec
 ## Setup
-    respec --init
+    rspec --init
+## Test
+    $ rspec
 
 <!-- This README would normally document whatever steps are necessary to get the
 application up and running.
