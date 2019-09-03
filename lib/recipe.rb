@@ -18,5 +18,17 @@ class Recipe
     else
     end
   end
+
+  hotcake = Recipe.new('Hot Cake')
+  puts hotcake.name
+  # => Hot Cake
+  puts hotcake.ingredients.inspect
+  # => ["Egg", "Flour", "Water", "Sugar"]
+
+  soup = Recipe.new('Miso Soup')
+  puts soup.name
+  # => Miso Soup
+  puts soup.ingredients.inspect
+  # => ["Tofu", "Green Chard", "Green Onion", "White miso paste"]
 end
 
