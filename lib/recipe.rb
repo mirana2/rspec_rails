@@ -19,6 +19,7 @@ class Recipe
     end
   end
 
+  puts "======INSTANCE METHODE======="
   hotcake = Recipe.new('Hot Cake')
   puts hotcake.name
   # => Hot Cake
