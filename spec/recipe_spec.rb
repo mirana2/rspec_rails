@@ -1,5 +1,6 @@
 require_relative '../lib/recipe'
 
+#This is the test rspec for the instance methode
 Recipe.describe do
   describe '.name' do
     it "recipe 'Hot Cake'" do 

@@ -1,9 +1,11 @@
 class Recipe
   
+  # class methode to define the name of recipe
   def self.for(name)
     @name = name
   end
 
+  # class methode to choose if it is a 'hot Cake' or 'Miso soup'
   def self.recipe
     if @name == 'Hot Cake'
       return 'Hot Cake'
@@ -13,6 +15,7 @@ class Recipe
     end
   end
 
+  # class methode to specify the ingredient according to recipe
   def self.ingredients
     if @name == 'Hot Cake'
       return ['Egg', 'Flour', 'Water','Sugar']
