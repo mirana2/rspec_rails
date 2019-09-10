@@ -22,10 +22,12 @@ able to do that without having to install or load the components of RSpec that
 you're not using.
 
 ## Installation
-Add on your **Gemfile** :
+Add on your `Gemfile` :
+    ```sh
     gem 'rspec', '~> 3.4'
-And run:
-    bundle install 
+
+    $ bundle install 
+    ```
 
 ## Contribute
 
@@ -45,9 +47,11 @@ Now I use the lasted [rspec-rails](https://github.com/rspec/rspec-rails)
 
 ## Installation
 On the `Gemfile` , add:
+    ```sh
     gem 'rspec-rails'
-And run:
-    bundle install
+
+    $ bundle install
+    ```
 
 ## Usage and Setup
 1. Generate the cofiguration files:
