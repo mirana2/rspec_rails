@@ -1,7 +1,8 @@
-require_relative '../lib/recipe'
+require 'rails_helper'
 
-#This is the test rspec for the instance methode
-Recipe.describe do
+
+RSpec.describe Recipe, type: :model do
+  #pending "add some examples to (or delete) #{__FILE__}"
   describe '.name' do
     it "recipe 'Hot Cake'" do 
       hotcake = Recipe.new("Hot Cake")
@@ -14,6 +15,6 @@ Recipe.describe do
       expect(ingredient).to eq(['Tofu', 'Green Chard', 'Green Onion','White miso paste'])
     end
   end
-end
 
+end
 
