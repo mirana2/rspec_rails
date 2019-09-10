@@ -23,6 +23,7 @@ you're not using.
 
 ## Installation
 Add on your `Gemfile` :
+
     ```sh
     gem 'rspec', '~> 3.4'
 
@@ -47,6 +48,7 @@ Now I use the lasted [rspec-rails](https://github.com/rspec/rspec-rails)
 
 ## Installation
 On the `Gemfile` , add:
+
     ```sh
     gem 'rspec-rails'
 
