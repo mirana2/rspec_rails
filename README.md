@@ -24,11 +24,10 @@ you're not using.
 ## Installation
 Add on your `Gemfile` :
 
-    ```
     gem 'rspec', '~> 3.4'
 
     $ bundle install 
-    ```
+
 
 ## Contribute
 
@@ -49,11 +48,10 @@ Now I use the lasted [rspec-rails](https://github.com/rspec/rspec-rails)
 ## Installation
 On the `Gemfile` , add:
 
-    ```
     gem 'rspec-rails'
 
     $ bundle install
-    ```
+
 
 ## Usage and Setup
 1. Generate the cofiguration files:
